@@ -56,6 +56,7 @@ class HaltonEnvironment(object):
     def get_successors(self, vid):
         successors = [int(i) for i in self.graph.neighbors(str(vid))]
         return successors
+
         '''
         freeSuccessors = []
         for i in successors:
